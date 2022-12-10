@@ -1,3 +1,6 @@
+body{
+    background-color: #ffddd2;
+}
 .main{
     border-radius: 10px;
     background-color: #0f90e0;
@@ -5,12 +8,13 @@
     box-shadow: 0px 0px 25px 5px rgb(251, 250, 250);
 }
 .heding{
+    margin-top: 10px;
     background-color: #ffa200;
     font-size: 40px;
-    color: #000814;
+    color: #fafbfb;
     border-radius: 10px;
     border: 1px solid rgb(250, 168, 4);
-    box-shadow: 0px 2px 6px 2px rgb(238, 123, 9);
+    box-shadow: 0px 2px 4px 2px rgb(238, 123, 9);
 }
 input{
     font-weight: bold;
@@ -19,7 +23,7 @@ input{
     box-shadow: 2px 2px 6px 2px rgb(48, 47, 47);
 }
 .btn{
-    border: 1px solid rgb(7, 7, 7);
+    border: 1px solid gray;
     background-color: #ff5400;
     color: azure;
     padding-left: 25px;
@@ -27,7 +31,6 @@ input{
   
 }
 .btn:hover{
-    border: 1px solid rgb(7, 7, 7);
-    background-color: #fbb02d;
-    box-shadow: 2px 2px 7px 2px rgb(244, 240, 240);
+    background-color: #ff5400;
+    box-shadow: 0px 0px 5px 1px rgb(244, 240, 240);
 }
